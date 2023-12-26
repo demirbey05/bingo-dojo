@@ -1,13 +1,15 @@
 [package]
 cairo-version = "2.4.0"
-name = "dojo_examples"
+name = "bingo"
 version = "0.4.0"
 
 [cairo]
 sierra-replace-ids = true
 
 [dependencies]
-dojo = { git = "https://github.com/dojoengine/dojo", version = "0.4.1" }
+dojo = { git = "https://github.com/dojoengine/dojo", tag = "v0.4.2" }
+origami = { git = "https://github.com/dojoengine/origami.git" }
+pragma_lib = { git = "https://github.com/astraly-labs/pragma-lib" }
 
 [[target.dojo]]
 
